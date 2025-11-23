@@ -18,7 +18,13 @@ h1, h2 {
   margin-bottom: 15px;
   text-align: center;
 }
-
+#sair{
+  background-color: #d43535;
+  color: #facfcf;
+  padding: 5px 10px;
+  border-radius: 5px;
+  
+}
 .Perro{
   width: 100%;
   text-align: center;

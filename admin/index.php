@@ -37,7 +37,7 @@ if (!isset($_SESSION['adm'])) {
             <input type="file" name="imagem" id="fileModelo" required>
         <br><br>
 
-        <button type="submit">Enviar</button>
+        <button type="submit"> ENVIAR</button>
     </div>
 </form>
 <h2>Adicionar Produto</h2>
@@ -51,7 +51,7 @@ if (!isset($_SESSION['adm'])) {
     <div class="imgProduto">
         <img id="preview" src="" alt="Preview">
     </div>
-    <button type="submit">Salvar</button>
+    <button type="submit">SALVAR</button>
 </form>
 
 <?php
@@ -84,7 +84,7 @@ $produtos = json_decode(file_get_contents("../data/produtos.json"), true);
 <?php endforeach; ?>
 </div>
 
-<a href="logout.php">Sair</a>
+<a href="logout.php" id="sair">Sair</a>
 
 <script>
 fetch("../data/modelos.json")
